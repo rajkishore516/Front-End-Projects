@@ -1,0 +1,195 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,sans-serif;
+}
+body{
+    background-color: rgb(54, 50, 50);
+}
+
+.main{
+    height:100vh;
+    background:radial-gradient(circle, rgba(0, 0, 0, 0.7) 100%, rgba(0, 0, 0, 0.5) 100%),
+    url("main\ image.jpg");
+}
+.main .shadow{
+    height: 100vh;
+    /* background-color: rgba(0,0,0,0.5); */
+}
+.header{
+    height: 5rem;
+}
+.main .shadow .header .header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:2rem;
+    padding:30px 180px;
+}
+.buttons{
+    height: 5rem;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:20px;
+    transition: all 0.5s;
+}
+.logo{
+    height: 140px;
+    width: 140px;
+    fill:red;
+}
+.language button{
+    padding:10px 25px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+    background: rgb(46, 44, 44);
+    border:1px solid white;
+    border-radius: 7px;
+}
+.sign button{
+    padding:10px 20px;
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 600;
+    background: red;
+    border:none;
+    border-radius: 7px;
+    transition: all 0.5s;
+}
+.sign button:hover{
+    background-color: rgb(195, 25, 25);
+}
+/* .buttons button:hover{
+    box-shadow: 0 0 0 2px white;
+} */
+.main-body{
+    /* height: 60vh; */
+    padding:30px 150px;
+    /* background-color: white; */
+    margin-top: 1rem;
+}
+.main-body .content{
+    margin: 140px auto;
+    height:40vh;
+    /* background-color: green; */
+}
+.content-body{
+    text-align: center;
+}
+.content-body h1{
+    font-size: 3rem;
+    color: white;
+}
+.content-body h3{
+    font-size: 1.5rem;
+    color:white;
+}
+.content-body h4{
+    font-size: 1.2rem;
+    color:white;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:7px;
+}
+.input input{
+    height: 60px;
+    width: 400px;
+    padding-left: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(190, 22, 22);
+    color:white;
+}
+.input input[type="text"]{
+    font-size: 1rem;
+    background-color: rgba(0,0,0,0.7);
+    color:white;
+}
+.start button{
+    padding:13px;
+    width:200px;
+    font-weight: 600;
+    font-size:1.5rem;
+    border: none;
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.start button:hover{
+    background-color: rgb(195, 25, 25);
+}
+.section2{
+    height: 600px;
+    margin-top: 7px;
+    background-color: black;
+}
+.section2-div{
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section2-div div{
+    height: 360px;
+    width: 600px;
+    /* border:2px solid white; */
+}
+.heading-div2{
+    color:white;
+    font-size:3rem;
+    font-weight: 900;
+}
+.para{
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.sec2-img{
+    border-radius: 5px;
+}
+.section3{
+    margin-top: 7px;
+    height: 680px;
+    background-color: black;
+    padding:70px;
+}
+.section3 h1{
+    color: white;
+    text-align: center;
+    font-size:4rem;
+}
+.section3 div{
+    color:white;
+    height: 3rem;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    margin-top: 15px;
+    margin-left:100px ;
+    font-size: 1.5rem;
+    width: 1200px;
+    background-color: rgb(59, 55, 55);
+    transition: all 0.5s;
+}
+.section3 div:hover{
+    background-color: rgb(157, 149, 149);
+    cursor: pointer;
+}
+.footer{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-top: 7px;
+}
+.footer div h5{
+    padding: 10px;
+    color:white;
+}
