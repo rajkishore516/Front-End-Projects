@@ -1,0 +1,51 @@
+@media (max-width:350px){
+    .section1-heading{
+        font-size: 25px;
+    }
+    .section1-para{
+        font-size: 1rem;
+    }
+    .section1-btn{
+        font-size: 1rem;
+    }
+    .msg h5{
+        font-size: 0.8rem;
+    }
+    
+}
+@media (max-width:780px){
+    .section2{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    .logos{
+        width:80px;
+    }
+    .logos img{
+        width: 80px;
+    }
+    .main_Heading{
+        font-size: 1rem;
+    }
+}
+@media (max-width:765px){
+    .reverse{
+        flex-direction: column-reverse;
+    }
+    .sub-footer1{
+        flex-direction: column;
+        height: 1500px;
+        gap:20px;
+    }
+    .sub-footer2{
+        flex-direction: column;
+        height: 15rem;        
+    }
+}
+@media (max-width:550px){
+    .main_Heading{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}

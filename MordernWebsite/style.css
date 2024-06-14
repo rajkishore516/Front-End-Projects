@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_Heading{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(10, 100, 142);
+    color:white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-link{
+    font-size:1.2rem;
+    font-weight: 600;
+    padding: 5px;
+}
+.navbar-nav{
+    gap:30px;
+}
+.login{
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.SignUp{
+    border-radius: 10px;
+    background-color: blue;
+    color:white;
+}
+.section-0{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.section1{
+    gap:30px;
+}
+.section1-heading{
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.section1-para{
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.section1-btn{
+    padding: 15px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white;
+}
+.msg{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2{
+    gap:10px;
+}
+.research{
+    margin-top: 5rem;
+    height: 5rem;
+    text-align: center;
+}
+.research h1{
+    font-weight: bold;
+}
+.button-see{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+}
+.seall{
+    font-size: 1.3rem;
+    padding:10px;
+    border-radius: 10px;
+    font-weight: 500;
+    border: 2px solid black;
+    background-color: aliceblue;
+}
+.cardBtn{
+    padding:10px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+.bod{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.footer{
+    height: 500px;
+    text-align: center;
+    background-color: rgb(5, 5, 86);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-footer1{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sub-footer1 div{
+    width:20%;
+    
+}
+.sub-footer1  div a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+.sub-footer1 div ul{
+    list-style: none;
+}
+.sub-footer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    background-color: lightblue;
+    gap:20px;
+}
+hr{
+    height: 0.5rem;
+    background-color: black;
+}
