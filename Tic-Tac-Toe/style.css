@@ -1,0 +1,87 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: rgb(221, 236, 238);
+}
+.msg-container{
+    margin:auto;
+    height:750px;
+    width:700px;
+    
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+#msg{
+    font-size: 30px;
+    font-weight: bolder;
+    color:white;
+}
+.new-btn{
+    padding:10px;
+    background-color: blue;
+    color:white;
+    font-size: 20px;
+    border:none;
+    border-radius: 10px;
+}
+.container{
+    height: 600px;
+    width:600px;
+    display: flex;
+    flex-wrap: wrap;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+    margin:auto ;
+}
+.game-box{
+    height:500px;
+    width:500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+}
+.box{
+    width:150px;
+    height:150px;
+    border:3px solid gray;
+    border-radius: 10px;
+    font-size:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.btn{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset-btn{
+    padding:10px;
+    background-color: blue;
+    color:white;
+    font-size: 20px;
+    border:none;
+    border-radius: 10px;
+}
+.reset-btn:hover{
+    box-shadow: 0 0 10px black;
+}
+.box:hover{
+    box-shadow: 0 0 10px black;
+}
+.new-btn:hover{
+    box-shadow: 0 0 10px black;
+}
+.hide{
+    display: none;
+}
